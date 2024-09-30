@@ -44,13 +44,13 @@ int main(){
     printf("Ingresa la cantidad de columnas de las matrices: ");
     scanf("%d", &columnas);
 
-    leerMatriz(filas, columnas, matrizA, "A");
-    leerMatriz(filas, columnas, matrizB, "B");
+    leerMatriz(filas, columnas, matrizA, 'A');
+    leerMatriz(filas, columnas, matrizB, 'B');
 
     sumarMatrices(filas, columnas, matrizA, matrizB, matrizC);
-    imprimirMatriz(filas, columnas, matrizA, "A");
-    imprimirMatriz(filas, columnas, matrizB, "B");
-    imprimirMatriz(filas, columnas, matrizC, "C");
+    imprimirMatriz(filas, columnas, matrizA, 'A');
+    imprimirMatriz(filas, columnas, matrizB, 'B');
+    imprimirMatriz(filas, columnas, matrizC, 'C');
 
     return 0;
 }
